@@ -11,7 +11,7 @@ greet()               // Hello World
 greet(name = "Alice") // Hello Alice
 ```
 
-But now we can also express those default values at the type level using the `default` type combined with literal types available in > 2.13. The `default` method can summon instances of default values for positional arguments.
+But now we can also express those default values at the type level using the `default` type combined with literal types available in >= 2.13. The `default` method can summon instances of default values for positional arguments.
 
 ```scala
 def greet(preamble: String default "Hello", name: String default "World") =
