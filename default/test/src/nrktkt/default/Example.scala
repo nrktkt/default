@@ -1,7 +1,5 @@
 package nrktkt.default
 
-import scala.language.implicitConversions
-
 object Example extends App {
   {
     def greet(preamble: String = "Hello", name: String = "World") =
@@ -77,6 +75,4 @@ object Example extends App {
     val example = Example(None)
     example.foo.getOrDefault // bar
   }
-
-  def ignore = implicitConversions
 }
