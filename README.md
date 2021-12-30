@@ -105,6 +105,4 @@ def defaultFromJson[A: FromJson, V <: A : ValueOf]: FromJson[A default V] =
   }
 ```
 
-## Play with it for yourself
-
-<script src="https://scastie.scala-lang.org/ENbCHGWET5ecoAJwiuucNg.js"></script>
+## [Play with it for yourself](https://scastie.scala-lang.org/ENbCHGWET5ecoAJwiuucNg)
